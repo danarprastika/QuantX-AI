@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Trading Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/16_RISK_MANAGEMENT.md
+depends_on:
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/15_SECURITY.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+related_documents:
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/15_SECURITY.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+---
 # QuantX AI - Risk Management
 
 ## Overview
@@ -369,8 +384,13 @@ class UserRiskConfig:
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
 - [15_SECURITY.md](15_SECURITY.md)
 - [47_OPERATIONS_RUNBOOK.md](47_OPERATIONS_RUNBOOK.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Trading Team*
+*Source of Truth: docs/16_RISK_MANAGEMENT.md*
+*Depends On: 07_SERVICE_BOUNDARIES.md, 15_SECURITY.md, 47_OPERATIONS_RUNBOOK.md*
+*Related Documents: 07_SERVICE_BOUNDARIES.md, 15_SECURITY.md, 47_OPERATIONS_RUNBOOK.md*
 *Phase: Infrastructure*

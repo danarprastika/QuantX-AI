@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Data Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/09_DATABASE_SCHEMA.md
+depends_on:
+  - docs/08_DATABASE_DESIGN.md
+  - docs/10_ENTITY_RELATIONSHIP.md
+  - docs/05_DOMAIN_MODEL.md
+  - docs/09_DATABASE_SCHEMA.md
+related_documents:
+  - docs/08_DATABASE_DESIGN.md
+  - docs/10_ENTITY_RELATIONSHIP.md
+  - docs/05_DOMAIN_MODEL.md
+  - docs/09_DATABASE_SCHEMA.md
+---
 # QuantX AI - Database Schema
 
 ## Overview
@@ -394,8 +411,13 @@ GROUP BY s.id, s.user_id;
 - [10_ENTITY_RELATIONSHIP.md](10_ENTITY_RELATIONSHIP.md)
 - [05_DOMAIN_MODEL.md](05_DOMAIN_MODEL.md)
 - [09_DATABASE_SCHEMA.md](09_DATABASE_SCHEMA.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Data Team*
+*Source of Truth: docs/09_DATABASE_SCHEMA.md*
+*Depends On: 08_DATABASE_DESIGN.md, 10_ENTITY_RELATIONSHIP.md, 05_DOMAIN_MODEL.md, 09_DATABASE_SCHEMA.md*
+*Related Documents: 08_DATABASE_DESIGN.md, 10_ENTITY_RELATIONSHIP.md, 05_DOMAIN_MODEL.md, 09_DATABASE_SCHEMA.md*
 *Phase: Data Layer*

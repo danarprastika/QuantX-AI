@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Backend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/11_API_SPECIFICATION.md
+depends_on:
+  - docs/12_API_CONTRACTS.md
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/27_CONFIGURATION.md
+related_documents:
+  - docs/12_API_CONTRACTS.md
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/27_CONFIGURATION.md
+---
 # QuantX AI - API Specification
 
 ## Overview
@@ -511,8 +526,13 @@ Response:
 - [12_API_CONTRACTS.md](12_API_CONTRACTS.md)
 - [02_SYSTEM_ARCHITECTURE.md](02_SYSTEM_ARCHITECTURE.md)
 - [27_CONFIGURATION.md](27_CONFIGURATION.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Backend Team*
+*Source of Truth: docs/11_API_SPECIFICATION.md*
+*Depends On: 12_API_CONTRACTS.md, 02_SYSTEM_ARCHITECTURE.md, 27_CONFIGURATION.md*
+*Related Documents: 12_API_CONTRACTS.md, 02_SYSTEM_ARCHITECTURE.md, 27_CONFIGURATION.md*
 *Phase: API Layer*

@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Backend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/12_API_CONTRACTS.md
+depends_on:
+  - docs/11_API_SPECIFICATION.md
+  - docs/26_EVENT_SYSTEM.md
+  - docs/33_VALIDATION.md
+related_documents:
+  - docs/11_API_SPECIFICATION.md
+  - docs/26_EVENT_SYSTEM.md
+  - docs/33_VALIDATION.md
+---
 # QuantX AI - API Contracts
 
 ## Overview
@@ -440,8 +455,13 @@ Services negotiate compatible versions:
 - [11_API_SPECIFICATION.md](11_API_SPECIFICATION.md)
 - [26_EVENT_SYSTEM.md](26_EVENT_SYSTEM.md)
 - [33_VALIDATION.md](33_VALIDATION.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Backend Team*
+*Source of Truth: docs/12_API_CONTRACTS.md*
+*Depends On: 11_API_SPECIFICATION.md, 26_EVENT_SYSTEM.md, 33_VALIDATION.md*
+*Related Documents: 11_API_SPECIFICATION.md, 26_EVENT_SYSTEM.md, 33_VALIDATION.md*
 *Phase: API Layer*

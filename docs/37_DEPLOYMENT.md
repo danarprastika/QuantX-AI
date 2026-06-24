@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/37_DEPLOYMENT.md
+depends_on:
+  - docs/38_DOCKER.md
+  - docs/39_KUBERNETES.md
+  - docs/40_CI_CD.md
+related_documents:
+  - docs/38_DOCKER.md
+  - docs/39_KUBERNETES.md
+  - docs/40_CI_CD.md
+---
 # QuantX AI - Deployment
 
 ## Overview
@@ -60,8 +75,13 @@ New (Green) ← Deploy → Test → Promote → New Current
 - [38_DOCKER.md](38_DOCKER.md)
 - [39_KUBERNETES.md](39_KUBERNETES.md)
 - [40_CI_CD.md](40_CI_CD.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/37_DEPLOYMENT.md*
+*Depends On: 38_DOCKER.md, 39_KUBERNETES.md, 40_CI_CD.md*
+*Related Documents: 38_DOCKER.md, 39_KUBERNETES.md, 40_CI_CD.md*
 *Phase: Operations*

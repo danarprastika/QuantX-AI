@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/24_MESSAGE_QUEUE.md
+depends_on:
+  - docs/23_BACKGROUND_WORKERS.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/32_ERROR_HANDLING.md
+related_documents:
+  - docs/23_BACKGROUND_WORKERS.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/32_ERROR_HANDLING.md
+---
 # QuantX AI - Message Queue
 
 ## Overview
@@ -223,8 +238,13 @@ RABBITMQ_METRICS = {
 - [23_BACKGROUND_WORKERS.md](23_BACKGROUND_WORKERS.md)
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
 - [32_ERROR_HANDLING.md](32_ERROR_HANDLING.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/24_MESSAGE_QUEUE.md*
+*Depends On: 23_BACKGROUND_WORKERS.md, 07_SERVICE_BOUNDARIES.md, 32_ERROR_HANDLING.md*
+*Related Documents: 23_BACKGROUND_WORKERS.md, 07_SERVICE_BOUNDARIES.md, 32_ERROR_HANDLING.md*
 *Phase: Infrastructure*

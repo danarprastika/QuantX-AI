@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/05_DOMAIN_MODEL.md
+depends_on:
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/08_DATABASE_DESIGN.md
+  - docs/09_DATABASE_SCHEMA.md
+related_documents:
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/08_DATABASE_DESIGN.md
+  - docs/09_DATABASE_SCHEMA.md
+---
 # QuantX AI - Domain Model
 
 ## Overview
@@ -386,8 +403,13 @@ PENDING → SUBMITTED → (FILLED | PARTIALLY_FILLED → FILLED | REJECTED)
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
 - [08_DATABASE_DESIGN.md](08_DATABASE_DESIGN.md)
 - [09_DATABASE_SCHEMA.md](09_DATABASE_SCHEMA.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/05_DOMAIN_MODEL.md*
+*Depends On: 06_CLEAN_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 08_DATABASE_DESIGN.md, 09_DATABASE_SCHEMA.md*
+*Related Documents: 06_CLEAN_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 08_DATABASE_DESIGN.md, 09_DATABASE_SCHEMA.md*
 *Phase: Foundation*

@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Data Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/10_ENTITY_RELATIONSHIP.md
+depends_on:
+  - docs/05_DOMAIN_MODEL.md
+  - docs/08_DATABASE_DESIGN.md
+  - docs/09_DATABASE_SCHEMA.md
+  - docs/32_ERROR_HANDLING.md
+related_documents:
+  - docs/05_DOMAIN_MODEL.md
+  - docs/08_DATABASE_DESIGN.md
+  - docs/09_DATABASE_SCHEMA.md
+  - docs/32_ERROR_HANDLING.md
+---
 # QuantX AI - Entity Relationship
 
 ## Overview
@@ -305,8 +322,13 @@ Created → Submitted → Partially Filled → Filled
 - [08_DATABASE_DESIGN.md](08_DATABASE_DESIGN.md)
 - [09_DATABASE_SCHEMA.md](09_DATABASE_SCHEMA.md)
 - [32_ERROR_HANDLING.md](32_ERROR_HANDLING.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Data Team*
+*Source of Truth: docs/10_ENTITY_RELATIONSHIP.md*
+*Depends On: 05_DOMAIN_MODEL.md, 08_DATABASE_DESIGN.md, 09_DATABASE_SCHEMA.md, 32_ERROR_HANDLING.md*
+*Related Documents: 05_DOMAIN_MODEL.md, 08_DATABASE_DESIGN.md, 09_DATABASE_SCHEMA.md, 32_ERROR_HANDLING.md*
 *Phase: Data Layer*

@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/39_KUBERNETES.md
+depends_on:
+  - docs/37_DEPLOYMENT.md
+  - docs/38_DOCKER.md
+  - docs/40_CI_CD.md
+related_documents:
+  - docs/37_DEPLOYMENT.md
+  - docs/38_DOCKER.md
+  - docs/40_CI_CD.md
+---
 # QuantX AI - Kubernetes
 
 ## Overview
@@ -85,8 +100,13 @@ spec:
 - [37_DEPLOYMENT.md](37_DEPLOYMENT.md)
 - [38_DOCKER.md](38_DOCKER.md)
 - [40_CI_CD.md](40_CI_CD.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/39_KUBERNETES.md*
+*Depends On: 37_DEPLOYMENT.md, 38_DOCKER.md, 40_CI_CD.md*
+*Related Documents: 37_DEPLOYMENT.md, 38_DOCKER.md, 40_CI_CD.md*
 *Phase: Operations*

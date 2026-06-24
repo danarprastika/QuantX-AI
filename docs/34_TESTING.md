@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: QA Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/34_TESTING.md
+depends_on:
+  - docs/43_CODING_STANDARD.md
+  - docs/40_CI_CD.md
+related_documents:
+  - docs/43_CODING_STANDARD.md
+  - docs/40_CI_CD.md
+---
 # QuantX AI - Testing
 
 ## Overview
@@ -146,8 +159,13 @@ def strategy(
 ## Related Documents
 - [43_CODING_STANDARD.md](43_CODING_STANDARD.md)
 - [40_CI_CD.md](40_CI_CD.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: QA Team*
+*Source of Truth: docs/34_TESTING.md*
+*Depends On: 43_CODING_STANDARD.md, 40_CI_CD.md*
+*Related Documents: 43_CODING_STANDARD.md, 40_CI_CD.md*
 *Phase: Operations*

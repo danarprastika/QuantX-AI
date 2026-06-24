@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: Project Management
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/54_MILESTONES.md
+depends_on:
+  - docs/52_SPRINT_PLANNING.md
+  - docs/53_PRODUCT_ROADMAP.md
+related_documents:
+  - docs/52_SPRINT_PLANNING.md
+  - docs/53_PRODUCT_ROADMAP.md
+---
 # QuantX AI - Milestones
 
 ## Overview
@@ -45,8 +58,13 @@ This document defines the key milestones for QuantX AI project delivery.
 ## Related Documents
 - [52_SPRINT_PLANNING.md](52_SPRINT_PLANNING.md)
 - [53_PRODUCT_ROADMAP.md](53_PRODUCT_ROADMAP.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Project Management*
+*Source of Truth: docs/54_MILESTONES.md*
+*Depends On: 52_SPRINT_PLANNING.md, 53_PRODUCT_ROADMAP.md*
+*Related Documents: 52_SPRINT_PLANNING.md, 53_PRODUCT_ROADMAP.md*
 *Phase: Process & Visualization*

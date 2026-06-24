@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/01_PROJECT_OVERVIEW.md
+depends_on:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/04_TECH_STACK.md
+  - docs/55_NON_FUNCTIONAL_REQUIREMENTS.md
+  - docs/53_PRODUCT_ROADMAP.md
+related_documents:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/04_TECH_STACK.md
+  - docs/55_NON_FUNCTIONAL_REQUIREMENTS.md
+  - docs/53_PRODUCT_ROADMAP.md
+---
 # QuantX AI - Project Overview
 
 ## Mission Statement
@@ -104,8 +121,13 @@ To become the leading AI-powered quantitative trading platform that seamlessly i
 - [04_TECH_STACK.md](04_TECH_STACK.md)
 - [55_NON_FUNCTIONAL_REQUIREMENTS.md](55_NON_FUNCTIONAL_REQUIREMENTS.md)
 - [53_PRODUCT_ROADMAP.md](53_PRODUCT_ROADMAP.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/01_PROJECT_OVERVIEW.md*
+*Depends On: 02_SYSTEM_ARCHITECTURE.md, 04_TECH_STACK.md, 55_NON_FUNCTIONAL_REQUIREMENTS.md, 53_PRODUCT_ROADMAP.md*
+*Related Documents: 02_SYSTEM_ARCHITECTURE.md, 04_TECH_STACK.md, 55_NON_FUNCTIONAL_REQUIREMENTS.md, 53_PRODUCT_ROADMAP.md*
 *Phase: Foundation*

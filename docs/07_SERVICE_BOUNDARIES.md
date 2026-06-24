@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/07_SERVICE_BOUNDARIES.md
+depends_on:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+  - docs/11_API_SPECIFICATION.md
+related_documents:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+  - docs/11_API_SPECIFICATION.md
+---
 # QuantX AI - Service Boundaries
 
 ## Overview
@@ -426,8 +443,13 @@ All APIs follow RESTful conventions with:
 - [06_CLEAN_ARCHITECTURE.md](06_CLEAN_ARCHITECTURE.md)
 - [22_BACKEND_ARCHITECTURE.md](22_BACKEND_ARCHITECTURE.md)
 - [11_API_SPECIFICATION.md](11_API_SPECIFICATION.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/07_SERVICE_BOUNDARIES.md*
+*Depends On: 02_SYSTEM_ARCHITECTURE.md, 06_CLEAN_ARCHITECTURE.md, 22_BACKEND_ARCHITECTURE.md, 11_API_SPECIFICATION.md*
+*Related Documents: 02_SYSTEM_ARCHITECTURE.md, 06_CLEAN_ARCHITECTURE.md, 22_BACKEND_ARCHITECTURE.md, 11_API_SPECIFICATION.md*
 *Phase: Core Architecture*

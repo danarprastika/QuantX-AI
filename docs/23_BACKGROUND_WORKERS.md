@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/23_BACKGROUND_WORKERS.md
+depends_on:
+  - docs/24_MESSAGE_QUEUE.md
+  - docs/32_ERROR_HANDLING.md
+  - docs/30_MONITORING.md
+related_documents:
+  - docs/24_MESSAGE_QUEUE.md
+  - docs/32_ERROR_HANDLING.md
+  - docs/30_MONITORING.md
+---
 # QuantX AI - Background Workers
 
 ## Overview
@@ -297,8 +312,13 @@ async def health() -> dict:
 - [24_MESSAGE_QUEUE.md](24_MESSAGE_QUEUE.md)
 - [32_ERROR_HANDLING.md](32_ERROR_HANDLING.md)
 - [30_MONITORING.md](30_MONITORING.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/23_BACKGROUND_WORKERS.md*
+*Depends On: 24_MESSAGE_QUEUE.md, 32_ERROR_HANDLING.md, 30_MONITORING.md*
+*Related Documents: 24_MESSAGE_QUEUE.md, 32_ERROR_HANDLING.md, 30_MONITORING.md*
 *Phase: Infrastructure*

@@ -1,3 +1,22 @@
+---
+status: Approved
+owner: Backend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/22_BACKEND_ARCHITECTURE.md
+depends_on:
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/23_BACKGROUND_WORKERS.md
+  - docs/29_LOGGING.md
+  - docs/31_OBSERVABILITY.md
+related_documents:
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/23_BACKGROUND_WORKERS.md
+  - docs/29_LOGGING.md
+  - docs/31_OBSERVABILITY.md
+---
 # QuantX AI - Backend Architecture
 
 ## Overview
@@ -524,8 +543,13 @@ class StructuredLogger:
 - [23_BACKGROUND_WORKERS.md](23_BACKGROUND_WORKERS.md)
 - [29_LOGGING.md](29_LOGGING.md)
 - [31_OBSERVABILITY.md](31_OBSERVABILITY.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Backend Team*
+*Source of Truth: docs/22_BACKEND_ARCHITECTURE.md*
+*Depends On: 06_CLEAN_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 23_BACKGROUND_WORKERS.md, 29_LOGGING.md, 31_OBSERVABILITY.md*
+*Related Documents: 06_CLEAN_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 23_BACKGROUND_WORKERS.md, 29_LOGGING.md, 31_OBSERVABILITY.md*
 *Phase: Core Architecture*

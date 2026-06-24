@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/27_CONFIGURATION.md
+depends_on:
+  - docs/28_DEPENDENCY_INJECTION.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/43_CODING_STANDARD.md
+related_documents:
+  - docs/28_DEPENDENCY_INJECTION.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/43_CODING_STANDARD.md
+---
 # QuantX AI - Configuration
 
 ## Overview
@@ -201,8 +216,13 @@ Semantic versioning: MAJOR.MINOR.PATCH
 - [28_DEPENDENCY_INJECTION.md](28_DEPENDENCY_INJECTION.md)
 - [45_PROJECT_CONVENTIONS.md](45_PROJECT_CONVENTIONS.md)
 - [43_CODING_STANDARD.md](43_CODING_STANDARD.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/27_CONFIGURATION.md*
+*Depends On: 28_DEPENDENCY_INJECTION.md, 45_PROJECT_CONVENTIONS.md, 43_CODING_STANDARD.md*
+*Related Documents: 28_DEPENDENCY_INJECTION.md, 45_PROJECT_CONVENTIONS.md, 43_CODING_STANDARD.md*
 *Phase: Infrastructure*

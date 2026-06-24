@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/35_PERFORMANCE.md
+depends_on:
+  - docs/30_MONITORING.md
+  - docs/25_CACHE_STRATEGY.md
+related_documents:
+  - docs/30_MONITORING.md
+  - docs/25_CACHE_STRATEGY.md
+---
 # QuantX AI - Performance
 
 ## Overview
@@ -47,8 +60,13 @@ This document defines the performance requirements, optimization strategies, and
 ## Related Documents
 - [30_MONITORING.md](30_MONITORING.md)
 - [25_CACHE_STRATEGY.md](25_CACHE_STRATEGY.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/35_PERFORMANCE.md*
+*Depends On: 30_MONITORING.md, 25_CACHE_STRATEGY.md*
+*Related Documents: 30_MONITORING.md, 25_CACHE_STRATEGY.md*
 *Phase: Operations*

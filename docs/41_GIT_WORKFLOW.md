@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: Engineering Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/41_GIT_WORKFLOW.md
+depends_on:
+  - docs/42_BRANCHING_STRATEGY.md
+  - docs/43_CODING_STANDARD.md
+related_documents:
+  - docs/42_BRANCHING_STRATEGY.md
+  - docs/43_CODING_STANDARD.md
+---
 # QuantX AI - Git Workflow
 
 ## Overview
@@ -83,8 +96,13 @@ type(scope): subject
 ## Related Documents
 - [42_BRANCHING_STRATEGY.md](42_BRANCHING_STRATEGY.md)
 - [43_CODING_STANDARD.md](43_CODING_STANDARD.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Engineering Team*
+*Source of Truth: docs/41_GIT_WORKFLOW.md*
+*Depends On: 42_BRANCHING_STRATEGY.md, 43_CODING_STANDARD.md*
+*Related Documents: 42_BRANCHING_STRATEGY.md, 43_CODING_STANDARD.md*
 *Phase: Operations*

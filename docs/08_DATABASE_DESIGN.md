@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Data Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/08_DATABASE_DESIGN.md
+depends_on:
+  - docs/05_DOMAIN_MODEL.md
+  - docs/09_DATABASE_SCHEMA.md
+  - docs/10_ENTITY_RELATIONSHIP.md
+  - docs/48_BACKUP_AND_RECOVERY.md
+related_documents:
+  - docs/05_DOMAIN_MODEL.md
+  - docs/09_DATABASE_SCHEMA.md
+  - docs/10_ENTITY_RELATIONSHIP.md
+  - docs/48_BACKUP_AND_RECOVERY.md
+---
 # QuantX AI - Database Design
 
 ## Overview
@@ -331,8 +348,13 @@ LIMIT 10;
 - [09_DATABASE_SCHEMA.md](09_DATABASE_SCHEMA.md)
 - [10_ENTITY_RELATIONSHIP.md](10_ENTITY_RELATIONSHIP.md)
 - [48_BACKUP_AND_RECOVERY.md](48_BACKUP_AND_RECOVERY.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Data Team*
+*Source of Truth: docs/08_DATABASE_DESIGN.md*
+*Depends On: 05_DOMAIN_MODEL.md, 09_DATABASE_SCHEMA.md, 10_ENTITY_RELATIONSHIP.md, 48_BACKUP_AND_RECOVERY.md*
+*Related Documents: 05_DOMAIN_MODEL.md, 09_DATABASE_SCHEMA.md, 10_ENTITY_RELATIONSHIP.md, 48_BACKUP_AND_RECOVERY.md*
 *Phase: Data Layer*

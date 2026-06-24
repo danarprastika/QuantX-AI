@@ -1,3 +1,22 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/02_SYSTEM_ARCHITECTURE.md
+depends_on:
+  - docs/01_PROJECT_OVERVIEW.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+  - docs/37_DEPLOYMENT.md
+related_documents:
+  - docs/01_PROJECT_OVERVIEW.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+  - docs/37_DEPLOYMENT.md
+---
 # QuantX AI - System Architecture
 
 ## Architectural Overview
@@ -140,8 +159,13 @@ See [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md) for detailed service de
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
 - [22_BACKEND_ARCHITECTURE.md](22_BACKEND_ARCHITECTURE.md)
 - [37_DEPLOYMENT.md](37_DEPLOYMENT.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/02_SYSTEM_ARCHITECTURE.md*
+*Depends On: 01_PROJECT_OVERVIEW.md, 06_CLEAN_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 22_BACKEND_ARCHITECTURE.md, 37_DEPLOYMENT.md*
+*Related Documents: 01_PROJECT_OVERVIEW.md, 06_CLEAN_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 22_BACKEND_ARCHITECTURE.md, 37_DEPLOYMENT.md*
 *Phase: Foundation*

@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: Project Management
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/52_SPRINT_PLANNING.md
+depends_on:
+  - docs/53_PRODUCT_ROADMAP.md
+  - docs/54_MILESTONES.md
+related_documents:
+  - docs/53_PRODUCT_ROADMAP.md
+  - docs/54_MILESTONES.md
+---
 # QuantX AI - Sprint Planning
 
 ## Overview
@@ -31,8 +44,13 @@ This document defines the sprint planning process for QuantX AI development team
 ## Related Documents
 - [53_PRODUCT_ROADMAP.md](53_PRODUCT_ROADMAP.md)
 - [54_MILESTONES.md](54_MILESTONES.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Project Management*
+*Source of Truth: docs/52_SPRINT_PLANNING.md*
+*Depends On: 53_PRODUCT_ROADMAP.md, 54_MILESTONES.md*
+*Related Documents: 53_PRODUCT_ROADMAP.md, 54_MILESTONES.md*
 *Phase: Process & Visualization*

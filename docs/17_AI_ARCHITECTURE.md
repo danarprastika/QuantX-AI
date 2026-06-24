@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: AI/ML Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/17_AI_ARCHITECTURE.md
+depends_on:
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/18_AI_PIPELINE.md
+  - docs/11_API_SPECIFICATION.md
+  - docs/32_ERROR_HANDLING.md
+related_documents:
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/18_AI_PIPELINE.md
+  - docs/11_API_SPECIFICATION.md
+  - docs/32_ERROR_HANDLING.md
+---
 # QuantX AI - AI Architecture
 
 ## Overview
@@ -330,8 +347,13 @@ ACTION: Scale up model replicas
 - [18_AI_PIPELINE.md](18_AI_PIPELINE.md)
 - [11_API_SPECIFICATION.md](11_API_SPECIFICATION.md)
 - [32_ERROR_HANDLING.md](32_ERROR_HANDLING.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: AI/ML Team*
+*Source of Truth: docs/17_AI_ARCHITECTURE.md*
+*Depends On: 07_SERVICE_BOUNDARIES.md, 18_AI_PIPELINE.md, 11_API_SPECIFICATION.md, 32_ERROR_HANDLING.md*
+*Related Documents: 07_SERVICE_BOUNDARIES.md, 18_AI_PIPELINE.md, 11_API_SPECIFICATION.md, 32_ERROR_HANDLING.md*
 *Phase: Core Architecture*

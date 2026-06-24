@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/58_COMPONENT_DIAGRAMS.md
+depends_on:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+related_documents:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+---
 # QuantX AI - Component Diagrams
 
 ## Overview
@@ -36,8 +49,13 @@ StrategyService --> TradingService: Emit events
 ## Related Documents
 - [02_SYSTEM_ARCHITECTURE.md](02_SYSTEM_ARCHITECTURE.md)
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/58_COMPONENT_DIAGRAMS.md*
+*Depends On: 02_SYSTEM_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md*
+*Related Documents: 02_SYSTEM_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md*
 *Phase: Process & Visualization*

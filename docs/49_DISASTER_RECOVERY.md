@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/49_DISASTER_RECOVERY.md
+depends_on:
+  - docs/48_BACKUP_AND_RECOVERY.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+  - docs/02_SYSTEM_ARCHITECTURE.md
+related_documents:
+  - docs/48_BACKUP_AND_RECOVERY.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+  - docs/02_SYSTEM_ARCHITECTURE.md
+---
 # QuantX AI - Disaster Recovery
 
 ## Overview
@@ -77,8 +92,13 @@ This document defines the disaster recovery plan for QuantX AI, including recove
 - [48_BACKUP_AND_RECOVERY.md](48_BACKUP_AND_RECOVERY.md)
 - [47_OPERATIONS_RUNBOOK.md](47_OPERATIONS_RUNBOOK.md)
 - [02_SYSTEM_ARCHITECTURE.md](02_SYSTEM_ARCHITECTURE.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/49_DISASTER_RECOVERY.md*
+*Depends On: 48_BACKUP_AND_RECOVERY.md, 47_OPERATIONS_RUNBOOK.md, 02_SYSTEM_ARCHITECTURE.md*
+*Related Documents: 48_BACKUP_AND_RECOVERY.md, 47_OPERATIONS_RUNBOOK.md, 02_SYSTEM_ARCHITECTURE.md*
 *Phase: Operations*

@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Backend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/32_ERROR_HANDLING.md
+depends_on:
+  - docs/15_SECURITY.md
+  - docs/29_LOGGING.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+related_documents:
+  - docs/15_SECURITY.md
+  - docs/29_LOGGING.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+---
 # QuantX AI - Error Handling
 
 ## Overview
@@ -71,8 +86,13 @@ def register_exception_handlers(app: FastAPI) -> None:
 - [15_SECURITY.md](15_SECURITY.md)
 - [29_LOGGING.md](29_LOGGING.md)
 - [47_OPERATIONS_RUNBOOK.md](47_OPERATIONS_RUNBOOK.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Backend Team*
+*Source of Truth: docs/32_ERROR_HANDLING.md*
+*Depends On: 15_SECURITY.md, 29_LOGGING.md, 47_OPERATIONS_RUNBOOK.md*
+*Related Documents: 15_SECURITY.md, 29_LOGGING.md, 47_OPERATIONS_RUNBOOK.md*
 *Phase: Infrastructure*

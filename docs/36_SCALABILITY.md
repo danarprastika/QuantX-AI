@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/36_SCALABILITY.md
+depends_on:
+  - docs/37_DEPLOYMENT.md
+  - docs/39_KUBERNETES.md
+related_documents:
+  - docs/37_DEPLOYMENT.md
+  - docs/39_KUBERNETES.md
+---
 # QuantX AI - Scalability
 
 ## Overview
@@ -64,8 +77,13 @@ This document defines the scalability architecture for QuantX AI, including hori
 ## Related Documents
 - [37_DEPLOYMENT.md](37_DEPLOYMENT.md)
 - [39_KUBERNETES.md](39_KUBERNETES.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/36_SCALABILITY.md*
+*Depends On: 37_DEPLOYMENT.md, 39_KUBERNETES.md*
+*Related Documents: 37_DEPLOYMENT.md, 39_KUBERNETES.md*
 *Phase: Operations*

@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/47_OPERATIONS_RUNBOOK.md
+depends_on:
+  - docs/30_MONITORING.md
+  - docs/48_BACKUP_AND_RECOVERY.md
+  - docs/49_DISASTER_RECOVERY.md
+  - docs/32_ERROR_HANDLING.md
+related_documents:
+  - docs/30_MONITORING.md
+  - docs/48_BACKUP_AND_RECOVERY.md
+  - docs/49_DISASTER_RECOVERY.md
+  - docs/32_ERROR_HANDLING.md
+---
 # QuantX AI - Operations Runbook
 
 ## Overview
@@ -62,8 +79,13 @@ This document provides operational procedures for running QuantX AI in productio
 - [48_BACKUP_AND_RECOVERY.md](48_BACKUP_AND_RECOVERY.md)
 - [49_DISASTER_RECOVERY.md](49_DISASTER_RECOVERY.md)
 - [32_ERROR_HANDLING.md](32_ERROR_HANDLING.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/47_OPERATIONS_RUNBOOK.md*
+*Depends On: 30_MONITORING.md, 48_BACKUP_AND_RECOVERY.md, 49_DISASTER_RECOVERY.md, 32_ERROR_HANDLING.md*
+*Related Documents: 30_MONITORING.md, 48_BACKUP_AND_RECOVERY.md, 49_DISASTER_RECOVERY.md, 32_ERROR_HANDLING.md*
 *Phase: Operations*

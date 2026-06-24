@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Security Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/13_AUTHENTICATION.md
+depends_on:
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/14_AUTHORIZATION.md
+  - docs/27_CONFIGURATION.md
+related_documents:
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/14_AUTHORIZATION.md
+  - docs/27_CONFIGURATION.md
+---
 # QuantX AI - Authentication
 
 ## Overview
@@ -275,8 +290,13 @@ CREATE TABLE refresh_tokens (
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
 - [14_AUTHORIZATION.md](14_AUTHORIZATION.md)
 - [27_CONFIGURATION.md](27_CONFIGURATION.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Security Team*
+*Source of Truth: docs/13_AUTHENTICATION.md*
+*Depends On: 07_SERVICE_BOUNDARIES.md, 14_AUTHORIZATION.md, 27_CONFIGURATION.md*
+*Related Documents: 07_SERVICE_BOUNDARIES.md, 14_AUTHORIZATION.md, 27_CONFIGURATION.md*
 *Phase: Infrastructure*

@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Engineering Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/51_VERSIONING.md
+depends_on:
+  - docs/50_RELEASE_PROCESS.md
+  - docs/11_API_SPECIFICATION.md
+  - docs/08_DATABASE_DESIGN.md
+related_documents:
+  - docs/50_RELEASE_PROCESS.md
+  - docs/11_API_SPECIFICATION.md
+  - docs/08_DATABASE_DESIGN.md
+---
 # QuantX AI - Versioning
 
 ## Overview
@@ -54,8 +69,13 @@ infrastructure/database/migrations/
 - [50_RELEASE_PROCESS.md](50_RELEASE_PROCESS.md)
 - [11_API_SPECIFICATION.md](11_API_SPECIFICATION.md)
 - [08_DATABASE_DESIGN.md](08_DATABASE_DESIGN.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Engineering Team*
+*Source of Truth: docs/51_VERSIONING.md*
+*Depends On: 50_RELEASE_PROCESS.md, 11_API_SPECIFICATION.md, 08_DATABASE_DESIGN.md*
+*Related Documents: 50_RELEASE_PROCESS.md, 11_API_SPECIFICATION.md, 08_DATABASE_DESIGN.md*
 *Phase: Operations*

@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/55_NON_FUNCTIONAL_REQUIREMENTS.md
+depends_on:
+  - docs/35_PERFORMANCE.md
+  - docs/36_SCALABILITY.md
+  - docs/15_SECURITY.md
+related_documents:
+  - docs/35_PERFORMANCE.md
+  - docs/36_SCALABILITY.md
+  - docs/15_SECURITY.md
+---
 # QuantX AI - Non-Functional Requirements
 
 ## Overview
@@ -76,8 +91,13 @@ This document defines the non-functional requirements for QuantX AI, including p
 - [35_PERFORMANCE.md](35_PERFORMANCE.md)
 - [36_SCALABILITY.md](36_SCALABILITY.md)
 - [15_SECURITY.md](15_SECURITY.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/55_NON_FUNCTIONAL_REQUIREMENTS.md*
+*Depends On: 35_PERFORMANCE.md, 36_SCALABILITY.md, 15_SECURITY.md*
+*Related Documents: 35_PERFORMANCE.md, 36_SCALABILITY.md, 15_SECURITY.md*
 *Phase: Process & Visualization*

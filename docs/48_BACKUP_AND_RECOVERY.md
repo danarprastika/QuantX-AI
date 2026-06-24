@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/48_BACKUP_AND_RECOVERY.md
+depends_on:
+  - docs/08_DATABASE_DESIGN.md
+  - docs/49_DISASTER_RECOVERY.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+related_documents:
+  - docs/08_DATABASE_DESIGN.md
+  - docs/49_DISASTER_RECOVERY.md
+  - docs/47_OPERATIONS_RUNBOOK.md
+---
 # QuantX AI - Backup and Recovery
 
 ## Overview
@@ -69,8 +84,13 @@ This document defines the backup and recovery procedures for QuantX AI, includin
 - [08_DATABASE_DESIGN.md](08_DATABASE_DESIGN.md)
 - [49_DISASTER_RECOVERY.md](49_DISASTER_RECOVERY.md)
 - [47_OPERATIONS_RUNBOOK.md](47_OPERATIONS_RUNBOOK.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/48_BACKUP_AND_RECOVERY.md*
+*Depends On: 08_DATABASE_DESIGN.md, 49_DISASTER_RECOVERY.md, 47_OPERATIONS_RUNBOOK.md*
+*Related Documents: 08_DATABASE_DESIGN.md, 49_DISASTER_RECOVERY.md, 47_OPERATIONS_RUNBOOK.md*
 *Phase: Operations*

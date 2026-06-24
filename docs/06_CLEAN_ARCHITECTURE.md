@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/06_CLEAN_ARCHITECTURE.md
+depends_on:
+  - docs/05_DOMAIN_MODEL.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/08_DATABASE_DESIGN.md
+  - docs/28_DEPENDENCY_INJECTION.md
+related_documents:
+  - docs/05_DOMAIN_MODEL.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/08_DATABASE_DESIGN.md
+  - docs/28_DEPENDENCY_INJECTION.md
+---
 # QuantX AI - Clean Architecture
 
 ## Overview
@@ -403,9 +420,14 @@ async def handle_infrastructure_error(request, exc):
 - [05_DOMAIN_MODEL.md](05_DOMAIN_MODEL.md)
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
 - [08_DATABASE_DESIGN.md](08_DATABASE_DESIGN.md)
-- [28_DEPENDENCY_INJECTION.md](28_DEPENDENCY_INTEGRATION.md)
-
+- [28_DEPENDENCY_INJECTION.md](28_DEPENDENCY_INJECTION.md)
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/06_CLEAN_ARCHITECTURE.md*
+*Depends On: 05_DOMAIN_MODEL.md, 07_SERVICE_BOUNDARIES.md, 08_DATABASE_DESIGN.md, 28_DEPENDENCY_INJECTION.md*
+*Related Documents: 05_DOMAIN_MODEL.md, 07_SERVICE_BOUNDARIES.md, 08_DATABASE_DESIGN.md, 28_DEPENDENCY_INJECTION.md*
 *Phase: Core Architecture*

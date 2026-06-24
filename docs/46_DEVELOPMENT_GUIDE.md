@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Engineering Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/46_DEVELOPMENT_GUIDE.md
+depends_on:
+  - docs/43_CODING_STANDARD.md
+  - docs/44_FOLDER_STRUCTURE.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/01_PROJECT_OVERVIEW.md
+related_documents:
+  - docs/43_CODING_STANDARD.md
+  - docs/44_FOLDER_STRUCTURE.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/01_PROJECT_OVERVIEW.md
+---
 # QuantX AI - Development Guide
 
 ## Overview
@@ -101,8 +118,13 @@ poetry run ruff check . && poetry run mypy .
 - [44_FOLDER_STRUCTURE.md](44_FOLDER_STRUCTURE.md)
 - [45_PROJECT_CONVENTIONS.md](45_PROJECT_CONVENTIONS.md)
 - [01_PROJECT_OVERVIEW.md](01_PROJECT_OVERVIEW.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Engineering Team*
+*Source of Truth: docs/46_DEVELOPMENT_GUIDE.md*
+*Depends On: 43_CODING_STANDARD.md, 44_FOLDER_STRUCTURE.md, 45_PROJECT_CONVENTIONS.md, 01_PROJECT_OVERVIEW.md*
+*Related Documents: 43_CODING_STANDARD.md, 44_FOLDER_STRUCTURE.md, 45_PROJECT_CONVENTIONS.md, 01_PROJECT_OVERVIEW.md*
 *Phase: Operations*

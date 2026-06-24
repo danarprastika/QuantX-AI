@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/40_CI_CD.md
+depends_on:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/41_GIT_WORKFLOW.md
+  - docs/42_BRANCHING_STRATEGY.md
+related_documents:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/41_GIT_WORKFLOW.md
+  - docs/42_BRANCHING_STRATEGY.md
+---
 # QuantX AI - CI/CD
 
 ## Overview
@@ -74,8 +89,13 @@ jobs:
 - [02_SYSTEM_ARCHITECTURE.md](02_SYSTEM_ARCHITECTURE.md)
 - [41_GIT_WORKFLOW.md](41_GIT_WORKFLOW.md)
 - [42_BRANCHING_STRATEGY.md](42_BRANCHING_STRATEGY.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/40_CI_CD.md*
+*Depends On: 02_SYSTEM_ARCHITECTURE.md, 41_GIT_WORKFLOW.md, 42_BRANCHING_STRATEGY.md*
+*Related Documents: 02_SYSTEM_ARCHITECTURE.md, 41_GIT_WORKFLOW.md, 42_BRANCHING_STRATEGY.md*
 *Phase: Operations*

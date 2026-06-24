@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Security Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/14_AUTHORIZATION.md
+depends_on:
+  - docs/13_AUTHENTICATION.md
+  - docs/15_SECURITY.md
+  - docs/55_NON_FUNCTIONAL_REQUIREMENTS.md
+related_documents:
+  - docs/13_AUTHENTICATION.md
+  - docs/15_SECURITY.md
+  - docs/55_NON_FUNCTIONAL_REQUIREMENTS.md
+---
 # QuantX AI - Authorization
 
 ## Overview
@@ -291,8 +306,13 @@ authz:strategy:{strategy_id}:ownership
 - [13_AUTHENTICATION.md](13_AUTHENTICATION.md)
 - [15_SECURITY.md](15_SECURITY.md)
 - [55_NON_FUNCTIONAL_REQUIREMENTS.md](55_NON_FUNCTIONAL_REQUIREMENTS.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Security Team*
+*Source of Truth: docs/14_AUTHORIZATION.md*
+*Depends On: 13_AUTHENTICATION.md, 15_SECURITY.md, 55_NON_FUNCTIONAL_REQUIREMENTS.md*
+*Related Documents: 13_AUTHENTICATION.md, 15_SECURITY.md, 55_NON_FUNCTIONAL_REQUIREMENTS.md*
 *Phase: Infrastructure*

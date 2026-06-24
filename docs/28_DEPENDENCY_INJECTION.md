@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Backend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/28_DEPENDENCY_INJECTION.md
+depends_on:
+  - docs/27_CONFIGURATION.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/44_FOLDER_STRUCTURE.md
+related_documents:
+  - docs/27_CONFIGURATION.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/44_FOLDER_STRUCTURE.md
+---
 # QuantX AI - Dependency Injection
 
 ## Overview
@@ -193,8 +208,13 @@ def di_container() -> Container:
 - [27_CONFIGURATION.md](27_CONFIGURATION.md)
 - [06_CLEAN_ARCHITECTURE.md](06_CLEAN_ARCHITECTURE.md)
 - [44_FOLDER_STRUCTURE.md](44_FOLDER_STRUCTURE.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Backend Team*
+*Source of Truth: docs/28_DEPENDENCY_INJECTION.md*
+*Depends On: 27_CONFIGURATION.md, 06_CLEAN_ARCHITECTURE.md, 44_FOLDER_STRUCTURE.md*
+*Related Documents: 27_CONFIGURATION.md, 06_CLEAN_ARCHITECTURE.md, 44_FOLDER_STRUCTURE.md*
 *Phase: Infrastructure*

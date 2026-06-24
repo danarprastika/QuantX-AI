@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Frontend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/20_TELEGRAM_ARCHITECTURE.md
+depends_on:
+  - docs/20_TELEGRAM_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/26_EVENT_SYSTEM.md
+  - docs/31_OBSERVABILITY.md
+related_documents:
+  - docs/20_TELEGRAM_ARCHITECTURE.md
+  - docs/07_SERVICE_BOUNDARIES.md
+  - docs/26_EVENT_SYSTEM.md
+  - docs/31_OBSERVABILITY.md
+---
 # QuantX AI - Telegram Architecture
 
 ## Overview
@@ -324,8 +341,13 @@ EVENT_SUBSCRIPTIONS = {
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
 - [26_EVENT_SYSTEM.md](26_EVENT_SYSTEM.md)
 - [31_OBSERVABILITY.md](31_OBSERVABILITY.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Frontend Team*
+*Source of Truth: docs/20_TELEGRAM_ARCHITECTURE.md*
+*Depends On: 20_TELEGRAM_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 26_EVENT_SYSTEM.md, 31_OBSERVABILITY.md*
+*Related Documents: 20_TELEGRAM_ARCHITECTURE.md, 07_SERVICE_BOUNDARIES.md, 26_EVENT_SYSTEM.md, 31_OBSERVABILITY.md*
 *Phase: Core Architecture*

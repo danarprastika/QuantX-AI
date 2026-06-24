@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Engineering Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/43_CODING_STANDARD.md
+depends_on:
+  - docs/44_FOLDER_STRUCTURE.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/34_TESTING.md
+  - docs/15_SECURITY.md
+related_documents:
+  - docs/44_FOLDER_STRUCTURE.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/34_TESTING.md
+  - docs/15_SECURITY.md
+---
 # QuantX AI - Coding Standard
 
 ## Overview
@@ -370,8 +387,13 @@ target-version = ["py311"]
 - [45_PROJECT_CONVENTIONS.md](45_PROJECT_CONVENTIONS.md)
 - [34_TESTING.md](34_TESTING.md)
 - [15_SECURITY.md](15_SECURITY.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Engineering Team*
+*Source of Truth: docs/43_CODING_STANDARD.md*
+*Depends On: 44_FOLDER_STRUCTURE.md, 45_PROJECT_CONVENTIONS.md, 34_TESTING.md, 15_SECURITY.md*
+*Related Documents: 44_FOLDER_STRUCTURE.md, 45_PROJECT_CONVENTIONS.md, 34_TESTING.md, 15_SECURITY.md*
 *Phase: Foundation*

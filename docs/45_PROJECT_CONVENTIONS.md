@@ -1,3 +1,14 @@
+---
+status: Approved
+owner: Engineering Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/45_PROJECT_CONVENTIONS.md
+depends_on:
+  - docs/01_PROJECT_OVERVIEW.md
+related_documents:
+  - docs/01_PROJECT_OVERVIEW.md
+---
 # QuantX AI - Project Conventions
 
 ## Overview
@@ -415,8 +426,13 @@ v1.0.0-beta.1
 - [44_FOLDER_STRUCTURE.md](44_FOLDER_STRUCTURE.md)
 - [41_GIT_WORKFLOW.md](41_GIT_WORKFLOW.md)
 - [27_CONFIGURATION.md](27_CONFIGURATION.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
-*Phase: Foundation*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Engineering Team*
+*Source of Truth: docs/45_PROJECT_CONVENTIONS.md*
+*Depends On: 01_PROJECT_OVERVIEW.md*
+*Related Documents: 01_PROJECT_OVERVIEW.md*
+*Phase: [Phase Name]*

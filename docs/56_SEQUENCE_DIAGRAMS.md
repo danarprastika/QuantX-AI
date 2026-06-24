@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: Architecture Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/56_SEQUENCE_DIAGRAMS.md
+depends_on:
+  - docs/57_ACTIVITY_DIAGRAMS.md
+  - docs/58_COMPONENT_DIAGRAMS.md
+related_documents:
+  - docs/57_ACTIVITY_DIAGRAMS.md
+  - docs/58_COMPONENT_DIAGRAMS.md
+---
 # QuantX AI - Sequence Diagrams
 
 ## Overview
@@ -45,8 +58,13 @@ end
 ## Related Documents
 - [57_ACTIVITY_DIAGRAMS.md](57_ACTIVITY_DIAGRAMS.md)
 - [58_COMPONENT_DIAGRAMS.md](58_COMPONENT_DIAGRAMS.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Architecture Team*
+*Source of Truth: docs/56_SEQUENCE_DIAGRAMS.md*
+*Depends On: 57_ACTIVITY_DIAGRAMS.md, 58_COMPONENT_DIAGRAMS.md*
+*Related Documents: 57_ACTIVITY_DIAGRAMS.md, 58_COMPONENT_DIAGRAMS.md*
 *Phase: Process & Visualization*

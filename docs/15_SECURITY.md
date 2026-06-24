@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Security Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/15_SECURITY.md
+depends_on:
+  - docs/13_AUTHENTICATION.md
+  - docs/14_AUTHORIZATION.md
+  - docs/16_RISK_MANAGEMENT.md
+  - docs/29_LOGGING.md
+related_documents:
+  - docs/13_AUTHENTICATION.md
+  - docs/14_AUTHORIZATION.md
+  - docs/16_RISK_MANAGEMENT.md
+  - docs/29_LOGGING.md
+---
 # QuantX AI - Security
 
 ## Overview
@@ -326,8 +343,13 @@ def sanitize_log_message(message: str) -> str:
 - [14_AUTHORIZATION.md](14_AUTHORIZATION.md)
 - [16_RISK_MANAGEMENT.md](16_RISK_MANAGEMENT.md)
 - [29_LOGGING.md](29_LOGGING.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Security Team*
+*Source of Truth: docs/15_SECURITY.md*
+*Depends On: 13_AUTHENTICATION.md, 14_AUTHORIZATION.md, 16_RISK_MANAGEMENT.md, 29_LOGGING.md*
+*Related Documents: 13_AUTHENTICATION.md, 14_AUTHORIZATION.md, 16_RISK_MANAGEMENT.md, 29_LOGGING.md*
 *Phase: Infrastructure*

@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Engineering Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/44_FOLDER_STRUCTURE.md
+depends_on:
+  - docs/43_CODING_STANDARD.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+related_documents:
+  - docs/43_CODING_STANDARD.md
+  - docs/45_PROJECT_CONVENTIONS.md
+  - docs/06_CLEAN_ARCHITECTURE.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+---
 # QuantX AI - Folder Structure
 
 ## Repository Organization
@@ -374,8 +391,13 @@ from api.schemas.requests import StrategyCreate
 - [45_PROJECT_CONVENTIONS.md](45_PROJECT_CONVENTIONS.md)
 - [06_CLEAN_ARCHITECTURE.md](06_CLEAN_ARCHITECTURE.md)
 - [22_BACKEND_ARCHITECTURE.md](22_BACKEND_ARCHITECTURE.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Engineering Team*
+*Source of Truth: docs/44_FOLDER_STRUCTURE.md*
+*Depends On: 43_CODING_STANDARD.md, 45_PROJECT_CONVENTIONS.md, 06_CLEAN_ARCHITECTURE.md, 22_BACKEND_ARCHITECTURE.md*
+*Related Documents: 43_CODING_STANDARD.md, 45_PROJECT_CONVENTIONS.md, 06_CLEAN_ARCHITECTURE.md, 22_BACKEND_ARCHITECTURE.md*
 *Phase: Foundation*

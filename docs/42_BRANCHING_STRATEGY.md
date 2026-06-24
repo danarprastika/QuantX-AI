@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Engineering Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/42_BRANCHING_STRATEGY.md
+depends_on:
+  - docs/40_CI_CD.md
+  - docs/51_VERSIONING.md
+  - docs/50_RELEASE_PROCESS.md
+related_documents:
+  - docs/40_CI_CD.md
+  - docs/51_VERSIONING.md
+  - docs/50_RELEASE_PROCESS.md
+---
 # QuantX AI - Branching Strategy
 
 ## Overview
@@ -65,8 +80,13 @@ This document defines the branching strategy for QuantX AI development using Git
 - [40_CI_CD.md](40_CI_CD.md)
 - [51_VERSIONING.md](51_VERSIONING.md)
 - [50_RELEASE_PROCESS.md](50_RELEASE_PROCESS.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Engineering Team*
+*Source of Truth: docs/42_BRANCHING_STRATEGY.md*
+*Depends On: 40_CI_CD.md, 51_VERSIONING.md, 50_RELEASE_PROCESS.md*
+*Related Documents: 40_CI_CD.md, 51_VERSIONING.md, 50_RELEASE_PROCESS.md*
 *Phase: Operations*

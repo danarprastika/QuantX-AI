@@ -1,3 +1,20 @@
+---
+status: Approved
+owner: Frontend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/21_FRONTEND_ARCHITECTURE.md
+depends_on:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/11_API_SPECIFICATION.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+  - docs/27_CONFIGURATION.md
+related_documents:
+  - docs/02_SYSTEM_ARCHITECTURE.md
+  - docs/11_API_SPECIFICATION.md
+  - docs/22_BACKEND_ARCHITECTURE.md
+  - docs/27_CONFIGURATION.md
+---
 # QuantX AI - Frontend Architecture
 
 ## Overview
@@ -364,8 +381,13 @@ NEXT_PUBLIC_TELEGRAM_BOT=@quantx_bot
 - [11_API_SPECIFICATION.md](11_API_SPECIFICATION.md)
 - [22_BACKEND_ARCHITECTURE.md](22_BACKEND_ARCHITECTURE.md)
 - [27_CONFIGURATION.md](27_CONFIGURATION.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Frontend Team*
+*Source of Truth: docs/21_FRONTEND_ARCHITECTURE.md*
+*Depends On: 02_SYSTEM_ARCHITECTURE.md, 11_API_SPECIFICATION.md, 22_BACKEND_ARCHITECTURE.md, 27_CONFIGURATION.md*
+*Related Documents: 02_SYSTEM_ARCHITECTURE.md, 11_API_SPECIFICATION.md, 22_BACKEND_ARCHITECTURE.md, 27_CONFIGURATION.md*
 *Phase: Core Architecture*

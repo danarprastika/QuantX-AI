@@ -1,3 +1,16 @@
+---
+status: Approved
+owner: AI/ML Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/18_AI_PIPELINE.md
+depends_on:
+  - docs/17_AI_ARCHITECTURE.md
+  - docs/11_API_SPECIFICATION.md
+related_documents:
+  - docs/17_AI_ARCHITECTURE.md
+  - docs/11_API_SPECIFICATION.md
+---
 # QuantX AI - AI Pipeline
 
 ## Overview
@@ -45,8 +58,13 @@ This document describes the AI model training and inference pipeline for QuantX 
 ## Related Documents
 - [17_AI_ARCHITECTURE.md](17_AI_ARCHITECTURE.md)
 - [11_API_SPECIFICATION.md](11_API_SPECIFICATION.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: AI/ML Team*
+*Source of Truth: docs/18_AI_PIPELINE.md*
+*Depends On: 17_AI_ARCHITECTURE.md, 11_API_SPECIFICATION.md*
+*Related Documents: 17_AI_ARCHITECTURE.md, 11_API_SPECIFICATION.md*
 *Phase: Process & Visualization*

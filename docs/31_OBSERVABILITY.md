@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: DevOps Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/31_OBSERVABILITY.md
+depends_on:
+  - docs/30_MONITORING.md
+  - docs/29_LOGGING.md
+  - docs/07_SERVICE_BOUNDARIES.md
+related_documents:
+  - docs/30_MONITORING.md
+  - docs/29_LOGGING.md
+  - docs/07_SERVICE_BOUNDARIES.md
+---
 # QuantX AI - Observability
 
 ## Overview
@@ -94,8 +109,13 @@ span.add_event("prediction_generated", attributes={"model_id": model_id})
 - [30_MONITORING.md](30_MONITORING.md)
 - [29_LOGGING.md](29_LOGGING.md)
 - [07_SERVICE_BOUNDARIES.md](07_SERVICE_BOUNDARIES.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: DevOps Team*
+*Source of Truth: docs/31_OBSERVABILITY.md*
+*Depends On: 30_MONITORING.md, 29_LOGGING.md, 07_SERVICE_BOUNDARIES.md*
+*Related Documents: 30_MONITORING.md, 29_LOGGING.md, 07_SERVICE_BOUNDARIES.md*
 *Phase: Infrastructure*

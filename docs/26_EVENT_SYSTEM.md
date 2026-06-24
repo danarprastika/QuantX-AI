@@ -1,3 +1,18 @@
+---
+status: Approved
+owner: Backend Team
+version: 1.0.0
+last_updated: 2026-06-24
+source_of_truth: docs/26_EVENT_SYSTEM.md
+depends_on:
+  - docs/12_API_CONTRACTS.md
+  - docs/24_MESSAGE_QUEUE.md
+  - docs/30_MONITORING.md
+related_documents:
+  - docs/12_API_CONTRACTS.md
+  - docs/24_MESSAGE_QUEUE.md
+  - docs/30_MONITORING.md
+---
 # QuantX AI - Event System
 
 ## Overview
@@ -229,8 +244,13 @@ class IdempotentEventHandler:
 - [12_API_CONTRACTS.md](12_API_CONTRACTS.md)
 - [24_MESSAGE_QUEUE.md](24_MESSAGE_QUEUE.md)
 - [30_MONITORING.md](30_MONITORING.md)
-
 ---
 *Document Version: 1.0.0*
 *Created: 2026-06-24*
+*Last Updated: 2026-06-24*
+*Status: Approved*
+*Owner: Backend Team*
+*Source of Truth: docs/26_EVENT_SYSTEM.md*
+*Depends On: 12_API_CONTRACTS.md, 24_MESSAGE_QUEUE.md, 30_MONITORING.md*
+*Related Documents: 12_API_CONTRACTS.md, 24_MESSAGE_QUEUE.md, 30_MONITORING.md*
 *Phase: Infrastructure*
