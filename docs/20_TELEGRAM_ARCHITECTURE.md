@@ -5,12 +5,10 @@ version: 1.0.0
 last_updated: 2026-06-24
 source_of_truth: docs/20_TELEGRAM_ARCHITECTURE.md
 depends_on:
-  - docs/20_TELEGRAM_ARCHITECTURE.md
   - docs/07_SERVICE_BOUNDARIES.md
   - docs/26_EVENT_SYSTEM.md
   - docs/31_OBSERVABILITY.md
 related_documents:
-  - docs/20_TELEGRAM_ARCHITECTURE.md
   - docs/07_SERVICE_BOUNDARIES.md
   - docs/26_EVENT_SYSTEM.md
   - docs/31_OBSERVABILITY.md

@@ -157,6 +157,7 @@ This document defines exactly one authoritative document for every major topic i
 |-------|----------------|-------------|
 | Development Guide | `46_DEVELOPMENT_GUIDE.md` | Local setup, workflow, commands |
 | Operations Runbook | `47_OPERATIONS_RUNBOOK.md` | Daily checks, incident response |
+| Documentation Index | `INDEX.md` | Master documentation index, navigation |
 
 ## Non-Negotiable Rules
 

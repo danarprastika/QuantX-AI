@@ -5,12 +5,8 @@ version: 1.0.0
 last_updated: 2026-06-24
 source_of_truth: docs/29_LOGGING.md
 depends_on:
-  - docs/31_OBSERVABILITY.md
-  - docs/29_LOGGING.md
   - docs/15_SECURITY.md
 related_documents:
-  - docs/31_OBSERVABILITY.md
-  - docs/29_LOGGING.md
   - docs/15_SECURITY.md
 ---
 # QuantX AI - Logging
@@ -190,8 +186,6 @@ OPERATIONAL_EVENTS = [
 - Tamper detection
 
 ## Related Documents
-- [31_OBSERVABILITY.md](31_OBSERVABILITY.md)
-- [29_LOGGING.md](29_LOGGING.md)
 - [15_SECURITY.md](15_SECURITY.md)
 ---
 *Document Version: 1.0.0*
@@ -200,6 +194,6 @@ OPERATIONAL_EVENTS = [
 *Status: Approved*
 *Owner: DevOps Team*
 *Source of Truth: docs/29_LOGGING.md*
-*Depends On: 31_OBSERVABILITY.md, 29_LOGGING.md, 15_SECURITY.md*
-*Related Documents: 31_OBSERVABILITY.md, 29_LOGGING.md, 15_SECURITY.md*
+*Depends On: 15_SECURITY.md*
+*Related Documents: *
 *Phase: Infrastructure*
