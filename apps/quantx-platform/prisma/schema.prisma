@@ -1,0 +1,94 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// MDS 43.3 Data Classification
+// @Classification(Restricted) - PII, Sharia-sensitive data
+// @Classification(Confidential) - Business-sensitive information
+// @Classification(Internal) - Internal metrics, non-sensitive configs
+// @Classification(Public) - Documentation, public APIs
+
+model AuditBase {
+  id         String   @id @default(uuid()) @db.Uuid
+  created_at DateTime @default(now())
+  created_by String   @db.Uuid
+  updated_at DateTime @updatedAt
+  updated_by String   @db.Uuid
+  deleted_at DateTime?
+  deleted_by String?  @db.Uuid
+
+  @@map("audit_base")
+}
+
+model User {
+  id            String    @id @default(uuid()) @db.Uuid
+  email         String    @unique
+  name          String?
+  role          String
+  classification String   @default("Internal")
+  created_at    DateTime  @default(now())
+  created_by    String    @db.Uuid
+  updated_at    DateTime  @updatedAt
+  updated_by    String    @db.Uuid
+  deleted_at    DateTime?
+  deleted_by    String?   @db.Uuid
+
+  @@map("users")
+}
+
+model MarketSignal {
+  id            String   @id @default(uuid()) @db.Uuid
+  symbol        String
+  signal_type    String
+  confidence    Decimal  @db.Decimal(5, 4)
+  metadata      Json?
+  classification String  @default("Confidential")
+  created_at    DateTime @default(now())
+  created_by    String   @db.Uuid
+  updated_at    DateTime @updatedAt
+  updated_by    String   @db.Uuid
+  deleted_at    DateTime?
+  deleted_by    String?   @db.Uuid
+
+  @@index([symbol, signal_type], map: "market_signals_symbol_type_idx")
+  @@map("market_signals")
+}
+
+model Portfolio {
+  id            String   @id @default(uuid()) @db.Uuid
+  user_id       String   @db.Uuid
+  name          String
+  total_value   Decimal  @db.Decimal(18, 4)
+  classification String  @default("Confidential")
+  created_at    DateTime @default(now())
+  created_by    String   @db.Uuid
+  updated_at    DateTime @updatedAt
+  updated_by    String   @db.Uuid
+  deleted_at    DateTime?
+  deleted_by    String?   @db.Uuid
+
+  @@index([user_id], map: "portfolios_user_id_idx")
+  @@map("portfolios")
+}
+
+model ShariaCompliance {
+  id            String   @id @default(uuid()) @db.Uuid
+  rule_id       String
+  description   String
+  is_compliant  Boolean  @default(true)
+  classification String  @default("Restricted")
+  created_at    DateTime @default(now())
+  created_by    String   @db.Uuid
+  updated_at    DateTime @updatedAt
+  updated_by    String   @db.Uuid
+  deleted_at    DateTime?
+  deleted_by    String?   @db.Uuid
+
+  @@index([rule_id], map: "sharia_compliance_rule_id_idx")
+  @@map("sharia_compliance")
+}

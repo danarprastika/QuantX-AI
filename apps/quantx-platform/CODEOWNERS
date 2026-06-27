@@ -1,0 +1,30 @@
+# QuantX Platform Backend Code Owners
+# MDS Section 22.1 - Plugin Governance
+
+# Domain Layer - Each team owns their bounded context
+*src/domain/market-intelligence* @quantx-platform/market-intelligence
+*src/domain/trading-signals* @quantx-platform/trading-signals
+*src/domain/portfolio* @quantx-platform/portfolio
+*src/domain/risk-management* @quantx-platform/risk-management
+*src/domain/sharia-compliance* @quantx-platform/sharia-compliance
+
+# Application Layer - Core Platform Team
+*src/application* @quantx-platform/core
+
+# Infrastructure Layer - Platform Team
+*src/infrastructure* @quantx-platform/platform
+
+# Presentation Layer - Core Platform Team
+*src/presentation* @quantx-platform/core
+
+# Shared Kernel - Architecture Team (MDS 52)
+*src/shared/kernel* @quantx-platform/architecture
+
+# Database Schema - Data Custodians
+*prisma* @quantx-platform/data-custodians
+
+# Documentation - Architecture Team
+*docs* @quantx-platform/architecture
+
+# Tests - Domain Teams
+*test* @quantx-platform/core
